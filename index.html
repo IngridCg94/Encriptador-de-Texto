@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+     <header>
+        <a href="https://www.aluracursos.com/" rel="" target="_blank">
+            <img class="logo" src="logo.svg" alt="Logo Alura">
+        </a>
+     </header>
+      <main>
+        <section class="panel_izquierda">
+            <textarea class="caja_texto_encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="mensaje_aviso">
+                <img class="logo_aviso" src="aviso.svg" alt="Logo Aviso">
+                <p class="texto_aviso">Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="boton_Encriptar">
+                <button class="accion_encriptar" type="submit">Encriptar!</button>
+                <button class="accion_desencriptar" type="submit">Desencriptar!</button>
+            </div>
+        </section>
+        <section class="panel_derecha">
+            <div class="caja_imagen">
+                <img class="muneco" src="muñeco.svg" alt="Imagen Muñeco">
+                <p class="txt_uno">Ningun mensaje fue encontrado</p>
+                <p class="txt_dos">Ingrese el texto que desea encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="operacion" readonly></textarea>
+            <button type="submit" class="accion_copiar">Copiar</button>
+        </section>
+      </main>
+       <footer>
+        <p class="pieDePagina">Encriptador de Texto - Desarrollado por Ingrid Camarena González</p>
+        <a href="https://github.com/IngridCg94" rel="" target="_blank">
+            <img src="github.svg" class="logo_github" alt="Logo GitHub">
+        </a>
+       </footer>
+
+       <script src="app.js"></script>
+       
+</body>
+</html>
